@@ -45,7 +45,7 @@ class ZeroShotPrompt(PromptBase):
         """\nfor vulnerability status and "cwe" as the vulnerability number found. """ 
         
         if step_by_step:
-            self.template += """\nThink about the answer step by step, but only answer with JSON."""
+            self.template += """\nThink about the answer step by step, and only answer with JSON."""
         else:
             self.template += """\nOnly answer with JSON."""
         
@@ -85,7 +85,7 @@ class FewShotPrompt(PromptBase):
 
         
         if step_by_step:
-            self.template += """\nThink about the answer step by step, but only answer with JSON."""
+            self.template += """\nThink about the answer step by step, and only answer with JSON."""
         else:
             self.template += """\nOnly answer with JSON."""
         
