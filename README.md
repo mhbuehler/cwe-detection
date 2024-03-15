@@ -25,10 +25,10 @@ produces an output file (`processed_copilot_cwe_data.json`) that is used by the 
   
 ## Prompt Experiments & Results
 
-[Find_and_Fix_Insecure_Code](Find_and_Fix_Insecure_Code.ipynb) - 
+[Detecting_Insecure_Code](Detecting_Insecure_Code.ipynb) - 
 You can use the included [`processed_copilot_cwe_data.json`](data/processed_copilot_cwe_data.json)
 file or generate it yourself using the [`process_copilot_cwe_data.py`](data/process_copilot_cwe_data.py)
-script (see <b>Data Processing Script</b>). To run the [notebook](Find_and_Fix_Insecure_Code.ipynb),
+script (see <b>Data Processing Script</b>). To run the [notebook](Detecting_Insecure_Code.ipynb),
 you need to have the `openai` python library installed and a valid OpenAI API key assigned to the
 `OPENAI_API_KEY` environment variable (alternatively, you can paste it into the first cell). Another
 environment variable `DATASET_DIR` should be set to the full path of the directory containing `processed_copilot_cwe_data.json`. The notebook is purposefully saved with visible output so that
